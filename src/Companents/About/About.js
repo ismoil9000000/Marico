@@ -20,19 +20,19 @@ function About() {
                         <p className="about-mission">OUR MISSION</p>
                         <h1>We exist to help creators <br />
                         own their audience.</h1>
-                        <p>We believe that social platforms are taking advantage of creators.
+                        <p>We believe that social platforms are taking advantage of creators. <br />
                         We want to change that and help creators fight back. </p>
                     </Col>
                 </Row>
             </div>
-            <div>
+            <div className="about-malumot">
                 <div>
                     <p>Building a career on social platforms is like building a home on someone else's
                     land. While social platforms are great for discovering and reaching your audience,
                     your goal as a creator should be to convert your followers into email or text
                     message subscribers. Why? Look no further than TikTok. Almost overnight,
                     millions of creative people almost lost their careers. </p>
-                    <p>If a platform removes your account, or their algorithm for distribution no longer
+                    <p className="about-text1">If a platform removes your account, or their algorithm for distribution no longer
                     favours you, are you prepared? </p>
                     <p>If you want to build a career as a creator, your focus should be on building durable
                     distribution channels. Without distribution, you have no business. So how can you
@@ -51,19 +51,19 @@ function About() {
                     believe the best tools are the ones you don't even notice. Marico helps you build
                     your own audience, without any hassle or time commitment. All you have to do is
                     share your portfolio link with your audience, and we'll handle the rest. </p>
-                    <p>You can also create posts from within Marico and share them in just a few clicks
+                    <p className="about-text1">You can also create posts from within Marico and share them in just a few clicks
                     to your portfolio, and to your email and text message subscribers. Since all of your
                     content is already in Marico, creating content takes minutes, not hours. </p>
                     <p>For too long, social platforms have taken advantage of creators. Fight back and
                     build an audience that you own. </p>
-                    <p>- The Team Marico (Olivia, William, and Noah) </p>
+                    <p className="about-text2">- The Team Marico (Olivia, William, and Noah) </p>
                     <hr />
                 </div>
             </div>
-            <div>
+            <div className="about-hodimlar">
                 <Row className="about-row-bottom">
-                    <Col>
-                        <p>OUR TEAM</p>
+                    <Col xxl={12}>
+                        <p className="about-mission">OUR TEAM</p>
                         <h2>We love creators</h2>
                     </Col>
                     <Col>
